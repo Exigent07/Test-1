@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+}
+
+.hero {
+    background-color: #F6FFDE;
+    height: 100vh;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 35px;
+}
+
+.title > h1 {
+    font-family: 'Sacramento', serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.title > h2 {
+    font-family: Montserrat;
+}
+
+.title > h2 > span {
+    text-decoration: underline;
+}
+
+.bio {
+    background-color: #E3F2C1;
+    height: auto;
+}
+
+.bio > img {
+    margin-top: 100px;
+}
+
+.cloud-1 {
+    padding-right: 40rem;
+}
+
+.cloud-2 {
+    padding-right: 4rem;
+    padding-bottom: 70px;
+}
+
+.house {
+    display: inline-flex;
+}
+
+.profile {
+    border-radius: 50%;
+    text-align: center;
+}
+
+.bio-align > p {
+    width: 30%;
+    text-align: center;
+    line-height: 2;
+    font-family: merriweather;
+    font-size: 1rem;
+}
+
+.divide {
+    border: dotted #AAC8A7 6px;
+    width: 4%;
+    border-bottom: none;
+    margin-top: 7.5rem;
+    margin-bottom: 7.5rem;
+    margin: 100px auto;
+}
+
+.bio-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bio-align > h2 {
+    font-size: 2.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-family: Montserrat;
+    color: #ffff;
+}
+
+.bio-2 > h2 {
+    font-family: merriweather;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.grid-img {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    row-gap: 100px;
+    column-gap: 100px;
+    text-align: left;
+    line-height: 2;
+}
+
+.align-img {
+    border-radius: 50%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  .btn:active {
+    background-color: #3e8e41;
+  }
+
+.finale {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding-bottom: 4rem;
+}
+
+.finale > h2 {
+    font-size: 3rem;
+    font-family: Montserrat;
+}
+
+.finale > h3 {
+    font-size: 2rem;
+    font-family: Montserrat;
+    font-weight: bolder;
+}
+
+.finale > p {
+    line-height: 2;
+    width: 75%;
+    font-family: Merriweather;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3.5rem;
+    background-color: #AAC8A7;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.link {
+    text-decoration: none;
+    color: #F6FFDE;
+    font-family: Montserrat;
+    font-weight: bolder;
+}
+
+.link:hover {
+    color: #45a049;
+}
+
+.footer > p {
+    font-family: Merriweather;
+}
+
